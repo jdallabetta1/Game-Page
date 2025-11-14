@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Online Games Hub</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #d3d3d3; /* gray background */
+      color: black;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    h1, h2 {
+      text-align: center;
+    }
+
+    .category {
+      background-color: #f0f0f0;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .links {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 10px;
+      justify-items: center;
+    }
+
+    a {
+      display: inline-block;
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+      padding: 10px 15px;
+      border-radius: 8px;
+      transition: 0.3s;
+      text-align: center;
+    }
+
+    a:hover {
+      opacity: 0.8;
+    }
+
+    /* Solid colors for each category */
+    .card-games a { background-color: #ffcc00; }
+    .dice-games a { background-color: #66ccff; }
+    .arcade-games a { background-color: #ff6666; }
+    .logic-games a { background-color: #99ff99; }
+    .basic-games a { background-color: #ff9933; }
+    .sports-games a { background-color: #66ffcc; }
+    .interactive a { background-color: #cc99ff; }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Online Games Hub</h1>
+
+    <div class="category card-games">
+      <h2>Card Games</h2>
+      <div class="links">
+        <a href="https://www.cardgames.io/" target="_blank">CardGames.io</a>
+        <a href="https://www.247solitaire.com/" target="_blank">247 Solitaire</a>
+        <a href="https://www.worldofsolitaire.com/" target="_blank">World of Solitaire</a>
+        <a href="https://www.solitairebliss.com/" target="_blank">Solitaire Bliss</a>
+        <a href="https://www.arkadium.com/free-online-games/card-games/" target="_blank">Arkadium — Card</a>
+        <a href="https://www.pogo.com/games/category/card" target="_blank">Pogo — Card</a>
+        <a href="https://www.cardzmania.com/" target="_blank">CardzMania</a>
+        <a href="https://www.solitaired.com/" target="_blank">Solitaired</a>
+      </div>
+    </div>
+
+    <div class="category dice-games">
+      <h2>Dice Games</h2>
+      <div class="links">
+        <a href="https://www.cardgames.io/yahtzee/" target="_blank">Yahtzee</a>
+        <a href="https://www.playok.com/en/yatzy/" target="_blank">Yatzy</a>
+        <a href="https://www.y8.com/tags/Dice" target="_blank">Y8 Dice</a>
+        <a href="https://www.crazygames.com/t/dice" target="_blank">CrazyGames Dice</a>
+        <a href="https://www.silvergames.com/en/t/dice" target="_blank">SilverGames Dice</a>
+        <a href="https://www.miniplay.com/dice-games" target="_blank">Miniplay Dice</a>
+        <a href="https://www.gamepix.com/dice" target="_blank">GamePix Dice</a>
+        <a href="https://lagged.com/en/t/dice" target="_blank">Lagged Dice</a>
+      </div>
+    </div>
+
+    <div class="category arcade-games">
+      <h2>Arcade Games</h2>
+      <div class="links">
+        <a href="https://www.crazygames.com/t/arcade" target="_blank">CrazyGames Arcade</a>
+        <a href="https://poki.com/en/arcade" target="_blank">Poki Arcade</a>
+        <a href="https://www.addictinggames.com/arcade" target="_blank">AddictingGames Arcade</a>
+        <a href="https://www.arkadium.com/free-online-games/arcade/" target="_blank">Arkadium Arcade</a>
+        <a href="https://www.kongregate.com/arcade-games" target="_blank">Kongregate Arcade</a>
+        <a href="https://www.miniplay.com/arcade-games" target="_blank">Miniplay Arcade</a>
+        <a href="https://www.agame.com/games/arcade" target="_blank">Agame Arcade</a>
+        <a href="https://www.gamepix.com/arcade" target="_blank">GamePix Arcade</a>
+      </div>
+    </div>
+
+    <div class="category logic-games">
+      <h2>Logical Thinking Games</h2>
+      <div class="links">
+        <a href="https://www.coolmathgames.com/1-logic-games" target="_blank">Coolmath Logic</a>
+        <a href="https://www.mathplayground.com/logic_games.html" target="_blank">Math Playground Logic</a>
+        <a href="https://www.puzzlebaron.com/logic/" target="_blank">Puzzle Baron</a>
+        <a href="https://www.conceptispuzzles.com/" target="_blank">Conceptis Puzzles</a>
+        <a href="https://www.brainzilla.com/" target="_blank">Brainzilla</a>
+        <a href="https://www.brainbashers.com/" target="_blank">BrainBashers</a>
+        <a href="https://www.transum.org/Software/" target="_blank">Transum</a>
+        <a href="https://www.logic-puzzles.org/" target="_blank">Logic Puzzles</a>
+      </div>
+    </div>
+
+    <div class="category basic-games">
+      <h2>Basic Games</h2>
+      <div class="links">
+        <a href="https://play2048.co/" target="_blank">2048</a>
+        <a href="https://tetris.com/play-tetris" target="_blank">Tetris</a>
+        <a href="https://playsnake.org/" target="_blank">Snake</a>
+        <a href="https://minesweeperonline.com/" target="_blank">Minesweeper</a>
+        <a href="https://www.google.com/logos/2010/pacman10-i.html" target="_blank">Pac‑Man</a>
+        <a href="https://chromedino.com/" target="_blank">T‑Rex Runner</a>
+        <a href="https://www.arkadium.com/free-online-games/classic/" target="_blank">Arkadium Classic</a>
+        <a href="https://emulatorjs.org/games/handheld/Simon/" target="_blank">Simon</a>
+      </div>
+    </div>
+
+    <div class="category sports-games">
+      <h2>Sports Games</h2>
+      <div class="links">
+        <a href="https://poki.com/en/sports" target="_blank">Poki Sports</a>
+        <a href="https://www.crazygames.com/t/sports" target="_blank">CrazyGames Sports</a>
+        <a href="https://www.y8.com/tags/Sports" target="_blank">Y8 Sports</a>
+        <a href="https://www.miniplay.com/sports-games" target="_blank">Miniplay Sports</a>
+        <a href="https://lagged.com/en/sports" target="_blank">Lagged Sports</a>
+        <a href="https://www.agame.com/games/sports" target="_blank">Agame Sports</a>
+        <a href="https://www.silvergames.com/en/t/sports" target="_blank">SilverGames Sports</a>
+        <a href="https://www.addictinggames.com/sports" target="_blank">AddictingGames Sports</a>
+      </div>
+    </div>
+
+    <div class="category interactive">
+      <h2>Online Interactive & Multiplayer</h2>
+      <div class="links">
+        <a href="https://skribbl.io/" target="_blank">skribbl.io</a>
+        <a href="https://garticphone.com/" target="_blank">Gartic Phone</a>
+        <a href="https://agar.io/" target="_blank">agar.io</a>
+        <a href="https://slither.io/" target="_blank">slither.io</a>
+        <a href="https://krunker.io/" target="_blank">Krunker</a>
+        <a href="https://boardgamearena.com/" target="_blank">Board Game Arena</a>
+        <a href="https://tabletopia.com/" target="_blank">Tabletopia</a>
+        <a href="https://www.geoguessr.com/" target="_blank">GeoGuessr</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
